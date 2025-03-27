@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="download.png" />
+
+    <title>SHOppsy</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 20px auto;
+      }
+
+      .category {
+        margin-bottom: 30px;
+        padding: 15px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .category h2 {
+        text-align: center;
+        background: #007bff;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+      }
+
+      .product-box {
+        width: 220px;
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .product-box img {
+        width: 100px;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .product-box h3 {
+        font-size: 14px;
+        margin: 10px 0;
+      }
+
+      .product-box p {
+        font-size: 14px;
+        color: #333;
+      }
+
+      button {
+        background-color: rgb(19, 35, 218);
+        border-radius: 3px;
+      }
+      button:hover {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
